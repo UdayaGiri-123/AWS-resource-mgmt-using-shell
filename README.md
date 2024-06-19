@@ -14,9 +14,9 @@
 Inorder to schedule run this script we can use crontab 
 
 First add execute permissions
->> chmod +x aws-resource-capture.sh
+$ chmod +x aws-resource-capture.sh
 Open crontab editor
->> crontab -e
+$ crontab -e
 Add the cron job
->> 0 7 * * * ./aws-resource-capture.sh
+$ 0 7 * * * ./aws-resource-capture.sh
 This command runs the script at **7AM ** everday. 
